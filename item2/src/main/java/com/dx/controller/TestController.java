@@ -29,4 +29,9 @@ public class TestController {
     public String test5(@PathVariable String userId, @PathVariable String passwd){
         return "hello param get!"+ userId + " : " + passwd;
     }
+
+    @PutMapping ("/hello/{userId}/{passwd}")
+    public String test6(@PathVariable String userId, @PathVariable String passwd){
+        return "hello param get!"+ userId + " : " + passwd;
+    }
 }
