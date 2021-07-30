@@ -1,5 +1,6 @@
 package com.dx.controller;
 
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
