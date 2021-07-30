@@ -24,4 +24,9 @@ public class TestController {
     public String test4(@PathVariable String userId, @PathVariable String passwd){
         return "hello param get!"+ userId + " : " + passwd;
     }
+
+    @DeleteMapping("/hello/{userId}/{passwd}")
+    public String test5(@PathVariable String userId, @PathVariable String passwd){
+        return "hello param get!"+ userId + " : " + passwd;
+    }
 }
